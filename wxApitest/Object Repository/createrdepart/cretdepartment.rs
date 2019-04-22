@@ -22,12 +22,19 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=a1p4cx9t6iaaGc1vl4KO2GX7lgTc6qp9hTMIRLN8TeEVdtSJInQgnEPF0XVU7llEo3Df4U3fFW8NRBMYkHQZNE5Hojx3gyQaJOqiYS_s5DShI1ed8FSDhQwwAN5xApiqaaQgUnIkUO4ioiZSEKbiBnINisJpPqT1jUSJXKgAXbxmuqV8IgMEahyVLMoeGv1vSvAOQmXBnVotsiTqALVC_Q</restUrl>
+   <restUrl>${url}/cgi-bin/department/create?access_token=a1p4cx9t6iaaGc1vl4KO2GX7lgTc6qp9hTMIRLN8TeEVdtSJInQgnEPF0XVU7llEo3Df4U3fFW8NRBMYkHQZNE5Hojx3gyQaJOqiYS_s5DShI1ed8FSDhQwwAN5xApiqaaQgUnIkUO4ioiZSEKbiBnINisJpPqT1jUSJXKgAXbxmuqV8IgMEahyVLMoeGv1vSvAOQmXBnVotsiTqALVC_Q</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>GlobalVariable.wx_url</defaultValue>
+      <description></description>
+      <id>764b24e5-f1e2-45f8-9fe4-4f14729f9e05</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

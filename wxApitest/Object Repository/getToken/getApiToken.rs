@@ -11,7 +11,7 @@
    <httpBodyType></httpBodyType>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${url}?corpid=ww5e2b49a3b4cd4f00&amp;corpsecret=qfvg8Wm3Kt5xDC4XeAU2ezChEwAowVWrLqi1QUhUpIs</restUrl>
+   <restUrl>${url}/cgi-bin/gettoken?corpid=ww5e2b49a3b4cd4f00&amp;corpsecret=qfvg8Wm3Kt5xDC4XeAU2ezChEwAowVWrLqi1QUhUpIs</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

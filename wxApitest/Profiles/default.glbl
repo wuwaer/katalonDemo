@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://qyapi.weixin.qq.com/cgi-bin/gettoken'</initValue>
+      <initValue>'https://qyapi.weixin.qq.com'</initValue>
       <name>wx_url</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
