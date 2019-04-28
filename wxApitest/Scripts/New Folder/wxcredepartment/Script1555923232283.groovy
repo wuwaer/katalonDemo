@@ -15,5 +15,3 @@ import internal.GlobalVariable as GlobalVariable
 
 response = WS.sendRequest(findTestObject('createrdepart/cretdepartment', [('url') : GlobalVariable.wx_url]))
 
-WS.verifyResponseStatusCode(reponses, 200)
-

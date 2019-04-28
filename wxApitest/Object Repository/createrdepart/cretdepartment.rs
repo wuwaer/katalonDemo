@@ -8,7 +8,7 @@
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n   \&quot;name\&quot;: \&quot;hhh2\&quot;,\n   \&quot;parentid\&quot;: 1,\n   \&quot;order\&quot;: 4,\n   \&quot;id\&quot;: ${num}\n}&quot;,
+  &quot;text&quot;: &quot;{\n   \&quot;name\&quot;: \&quot;${dep}\&quot;,\n   \&quot;parentid\&quot;: 1\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -47,14 +47,7 @@
       <description></description>
       <id>fe899710-3492-4373-9497-2a94d4975186</id>
       <masked>false</masked>
-      <name>department</name>
-   </variables>
-   <variables>
-      <defaultValue>findTestData('credepartmentdata/createdept').getValue(2, 1)</defaultValue>
-      <description></description>
-      <id>7cdc4f72-55d3-402c-a676-3805007af653</id>
-      <masked>false</masked>
-      <name>num</name>
+      <name>dep</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
