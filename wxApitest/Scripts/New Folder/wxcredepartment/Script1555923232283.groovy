@@ -13,5 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WS.sendRequest(findTestObject('createrdepart/cretdepartment', [('url') : GlobalVariable.wx_url]))
+response = WS.sendRequest(findTestObject('createrdepart/cretdepartment', [('url') : GlobalVariable.wx_url]))
+
+WS.verifyResponseStatusCode(reponses, 200)
 

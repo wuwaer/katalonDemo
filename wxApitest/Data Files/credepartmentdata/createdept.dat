@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>createdept</name>
+   <tag></tag>
+   <containsHeaders>false</containsHeaders>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>d2fd309d-6d8a-4b2f-a2f2-cb6d62a484fd</dataFileGUID>
+   <dataSourceUrl>Data Files/credepartmentdata/credept.csv</dataSourceUrl>
+   <driver>CSV</driver>
+   <isInternalPath>true</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

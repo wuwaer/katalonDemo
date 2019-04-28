@@ -42,10 +42,9 @@ ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 WS.verifyElementPropertyValue(response, 'errmsg', 'ok')
 def jsonSlurper = new JsonSlurper()
 
-def jsonResponse = jsonSlurper.parseText(respone.getResponseText())
+def jsonResponse = jsonSlurper.parseText(response.getResponseText())
 
 def token = jsonResponse.access_token
-
 
 File file = new File(&quot;Data Files/testData/token.csv&quot;)
 BufferedWriter out = new BufferedWriter(new FileWriter(file))
