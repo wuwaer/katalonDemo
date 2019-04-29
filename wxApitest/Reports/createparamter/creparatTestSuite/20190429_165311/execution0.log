@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-04-29T16:53:14</date>
+  <millis>1556527994160</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/createparamter/creparatTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">creparatTestSuite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/createparamter/creparatTestSuite</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:14</date>
+  <millis>1556527994188</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = dubl - localhost</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">dubl - localhost</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:14</date>
+  <millis>1556527994188</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:14</date>
+  <millis>1556527994189</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 127.0.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">127.0.0.1</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:14</date>
+  <millis>1556527994191</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.1.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.1.1.1</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:14</date>
+  <millis>1556527994449</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/New Folder/demo</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/New Folder/demo</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/New Folder/demo</property>
+  <property name="source">\\Users\\dubl\\katalonDemo\\wxApitest\\Test Cases\\New Folder\\demo.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:14</date>
+  <millis>1556527994495</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>depment = \u5E7F\u5DDE11</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:14</date>
+  <millis>1556527994496</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>partid = 4</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:14</date>
+  <millis>1556527994820</millis>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;getToken/getApiToken\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:17</date>
+  <millis>1556527997252</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_165311/requests/main/0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">9f968e8c-9e6e-48fb-99b9-39c45aae4821</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:17</date>
+  <millis>1556527997349</millis>
+  <sequence>14</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:17</date>
+  <millis>1556527997350</millis>
+  <sequence>15</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;getToken/getApiToken\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:17</date>
+  <millis>1556527997350</millis>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;createrdepart/cretdepartment\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url, \&amp;quot;access_token\&amp;quot;:findTestData(\&amp;quot;gettoken/getapitoken\&amp;quot;).getValue(1, 1), \&amp;quot;dep\&amp;quot;:$depment]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:17</date>
+  <millis>1556527997671</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_165311/requests/main/1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">031cc408-9fe5-4e15-b90f-7335bc509c7c</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:17</date>
+  <millis>1556527997679</millis>
+  <sequence>24</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:17</date>
+  <millis>1556527997679</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;createrdepart/cretdepartment\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url, \&amp;quot;access_token\&amp;quot;:findTestData(\&amp;quot;gettoken/getapitoken\&amp;quot;).getValue(1, 1), \&amp;quot;dep\&amp;quot;:$depment]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:17</date>
+  <millis>1556527997680</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;deletedepart/delpartment\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url, \&amp;quot;token\&amp;quot;:findTestData(\&amp;quot;gettoken/getapitoken\&amp;quot;).getValue(1, 1), \&amp;quot;partid\&amp;quot;:$partid]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:17</date>
+  <millis>1556527997887</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_165311/requests/main/2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">9d28e332-0839-4874-8798-cf53da7d7b18</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:17</date>
+  <millis>1556527997889</millis>
+  <sequence>34</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:17</date>
+  <millis>1556527997889</millis>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;deletedepart/delpartment\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url, \&amp;quot;token\&amp;quot;:findTestData(\&amp;quot;gettoken/getapitoken\&amp;quot;).getValue(1, 1), \&amp;quot;partid\&amp;quot;:$partid]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:17</date>
+  <millis>1556527997890</millis>
+  <sequence>36</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/New Folder/demo</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:17</date>
+  <millis>1556527997890</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/New Folder/demo</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:17</date>
+  <millis>1556527997893</millis>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/New Folder/demo</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/New Folder/demo</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/New Folder/demo</property>
+  <property name="source">\\Users\\dubl\\katalonDemo\\wxApitest\\Test Cases\\New Folder\\demo.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:17</date>
+  <millis>1556527997900</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>depment = \u676D\u5DDE11</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:17</date>
+  <millis>1556527997901</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>partid = 5</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:17</date>
+  <millis>1556527997902</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;getToken/getApiToken\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:18</date>
+  <millis>1556527998855</millis>
+  <sequence>46</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_165311/requests/main/3.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">6d6cfcaa-71d9-4bd9-bb12-4664240651b1</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:18</date>
+  <millis>1556527998857</millis>
+  <sequence>47</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:18</date>
+  <millis>1556527998858</millis>
+  <sequence>48</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;getToken/getApiToken\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:18</date>
+  <millis>1556527998858</millis>
+  <sequence>49</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;createrdepart/cretdepartment\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url, \&amp;quot;access_token\&amp;quot;:findTestData(\&amp;quot;gettoken/getapitoken\&amp;quot;).getValue(1, 1), \&amp;quot;dep\&amp;quot;:$depment]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:19</date>
+  <millis>1556527999114</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_165311/requests/main/4.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">2a6e6344-bada-468b-b54e-7b83528079a0</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:19</date>
+  <millis>1556527999116</millis>
+  <sequence>57</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:19</date>
+  <millis>1556527999116</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;createrdepart/cretdepartment\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url, \&amp;quot;access_token\&amp;quot;:findTestData(\&amp;quot;gettoken/getapitoken\&amp;quot;).getValue(1, 1), \&amp;quot;dep\&amp;quot;:$depment]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:19</date>
+  <millis>1556527999116</millis>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;deletedepart/delpartment\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url, \&amp;quot;token\&amp;quot;:findTestData(\&amp;quot;gettoken/getapitoken\&amp;quot;).getValue(1, 1), \&amp;quot;partid\&amp;quot;:$partid]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:19</date>
+  <millis>1556527999436</millis>
+  <sequence>66</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_165311/requests/main/5.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">739f1fbb-9039-4ff4-afbd-8d0002c05f99</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:19</date>
+  <millis>1556527999439</millis>
+  <sequence>67</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:19</date>
+  <millis>1556527999439</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;deletedepart/delpartment\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url, \&amp;quot;token\&amp;quot;:findTestData(\&amp;quot;gettoken/getapitoken\&amp;quot;).getValue(1, 1), \&amp;quot;partid\&amp;quot;:$partid]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:19</date>
+  <millis>1556527999440</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/New Folder/demo</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:19</date>
+  <millis>1556527999440</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/New Folder/demo</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:19</date>
+  <millis>1556527999443</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/New Folder/demo</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/New Folder/demo</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/New Folder/demo</property>
+  <property name="source">\\Users\\dubl\\katalonDemo\\wxApitest\\Test Cases\\New Folder\\demo.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:19</date>
+  <millis>1556527999449</millis>
+  <sequence>73</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>depment = \u4E0A\u6D7711</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:19</date>
+  <millis>1556527999449</millis>
+  <sequence>74</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>partid = 6</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:19</date>
+  <millis>1556527999450</millis>
+  <sequence>75</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;getToken/getApiToken\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:19</date>
+  <millis>1556527999807</millis>
+  <sequence>79</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_165311/requests/main/6.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">b740d59f-b54a-4f9a-9f88-5d2fd51a9521</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:19</date>
+  <millis>1556527999808</millis>
+  <sequence>80</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:19</date>
+  <millis>1556527999809</millis>
+  <sequence>81</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;getToken/getApiToken\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:19</date>
+  <millis>1556527999809</millis>
+  <sequence>82</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;createrdepart/cretdepartment\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url, \&amp;quot;access_token\&amp;quot;:findTestData(\&amp;quot;gettoken/getapitoken\&amp;quot;).getValue(1, 1), \&amp;quot;dep\&amp;quot;:$depment]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:20</date>
+  <millis>1556528000038</millis>
+  <sequence>89</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_165311/requests/main/7.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">448eb9eb-3de9-4f29-a346-c5f85aebe72d</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:20</date>
+  <millis>1556528000039</millis>
+  <sequence>90</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:20</date>
+  <millis>1556528000040</millis>
+  <sequence>91</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;createrdepart/cretdepartment\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url, \&amp;quot;access_token\&amp;quot;:findTestData(\&amp;quot;gettoken/getapitoken\&amp;quot;).getValue(1, 1), \&amp;quot;dep\&amp;quot;:$depment]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:20</date>
+  <millis>1556528000040</millis>
+  <sequence>92</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;deletedepart/delpartment\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url, \&amp;quot;token\&amp;quot;:findTestData(\&amp;quot;gettoken/getapitoken\&amp;quot;).getValue(1, 1), \&amp;quot;partid\&amp;quot;:$partid]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:20</date>
+  <millis>1556528000227</millis>
+  <sequence>99</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_165311/requests/main/8.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">cecf51c2-0034-40ff-a975-386dbc7ddbe2</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:20</date>
+  <millis>1556528000228</millis>
+  <sequence>100</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:20</date>
+  <millis>1556528000228</millis>
+  <sequence>101</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;deletedepart/delpartment\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url, \&amp;quot;token\&amp;quot;:findTestData(\&amp;quot;gettoken/getapitoken\&amp;quot;).getValue(1, 1), \&amp;quot;partid\&amp;quot;:$partid]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:20</date>
+  <millis>1556528000229</millis>
+  <sequence>102</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/New Folder/demo</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:20</date>
+  <millis>1556528000229</millis>
+  <sequence>103</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/New Folder/demo</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:20</date>
+  <millis>1556528000232</millis>
+  <sequence>104</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/New Folder/demo</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/New Folder/demo</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/New Folder/demo</property>
+  <property name="source">\\Users\\dubl\\katalonDemo\\wxApitest\\Test Cases\\New Folder\\demo.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:20</date>
+  <millis>1556528000239</millis>
+  <sequence>106</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>depment = \u5317\u4EAC11</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:20</date>
+  <millis>1556528000239</millis>
+  <sequence>107</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>partid = 7</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:20</date>
+  <millis>1556528000240</millis>
+  <sequence>108</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;getToken/getApiToken\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:20</date>
+  <millis>1556528000546</millis>
+  <sequence>112</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_165311/requests/main/9.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">da108e08-8603-4354-9aa2-6b1e540d4b4d</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:20</date>
+  <millis>1556528000547</millis>
+  <sequence>113</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:20</date>
+  <millis>1556528000548</millis>
+  <sequence>114</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;getToken/getApiToken\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:20</date>
+  <millis>1556528000548</millis>
+  <sequence>115</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;createrdepart/cretdepartment\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url, \&amp;quot;access_token\&amp;quot;:findTestData(\&amp;quot;gettoken/getapitoken\&amp;quot;).getValue(1, 1), \&amp;quot;dep\&amp;quot;:$depment]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:21</date>
+  <millis>1556528001050</millis>
+  <sequence>122</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_165311/requests/main/10.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">7cf03419-8774-48d4-8cb8-9785fbc73d90</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:21</date>
+  <millis>1556528001051</millis>
+  <sequence>123</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:21</date>
+  <millis>1556528001051</millis>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;createrdepart/cretdepartment\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url, \&amp;quot;access_token\&amp;quot;:findTestData(\&amp;quot;gettoken/getapitoken\&amp;quot;).getValue(1, 1), \&amp;quot;dep\&amp;quot;:$depment]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:21</date>
+  <millis>1556528001052</millis>
+  <sequence>125</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendRequest(findTestObject(\&amp;quot;deletedepart/delpartment\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url, \&amp;quot;token\&amp;quot;:findTestData(\&amp;quot;gettoken/getapitoken\&amp;quot;).getValue(1, 1), \&amp;quot;partid\&amp;quot;:$partid]))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:21</date>
+  <millis>1556528001238</millis>
+  <sequence>132</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_165311/requests/main/11.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">3eea45d0-82dd-4b80-ba16-2114f3ebe365</property>
+</record>
+<record>
+  <date>2019-04-29T16:53:21</date>
+  <millis>1556528001239</millis>
+  <sequence>133</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:21</date>
+  <millis>1556528001239</millis>
+  <sequence>134</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendRequest(findTestObject(\&amp;quot;deletedepart/delpartment\&amp;quot;, [\&amp;quot;url\&amp;quot;:wx_url, \&amp;quot;token\&amp;quot;:findTestData(\&amp;quot;gettoken/getapitoken\&amp;quot;).getValue(1, 1), \&amp;quot;partid\&amp;quot;:$partid]))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:21</date>
+  <millis>1556528001240</millis>
+  <sequence>135</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/New Folder/demo</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:21</date>
+  <millis>1556528001240</millis>
+  <sequence>136</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/New Folder/demo</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-04-29T16:53:21</date>
+  <millis>1556528001276</millis>
+  <sequence>137</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/createparamter/creparatTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

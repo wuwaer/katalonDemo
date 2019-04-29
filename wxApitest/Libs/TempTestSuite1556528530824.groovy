@@ -28,8 +28,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("/Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_141704/execution.properties")
+RunConfiguration.setExecutionSettingFile("/Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_170210/execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/createparamter/creparatTestSuite', suiteProperties, [new TestCaseBinding('Test Cases/New Folder/demo - Iteration 1', 'Test Cases/New Folder/demo',  [ 'depment' : '\u5E7F\u5DDE11' ,  ]), new TestCaseBinding('Test Cases/New Folder/demo - Iteration 2', 'Test Cases/New Folder/demo',  [ 'depment' : '\u676D\u5DDE11' ,  ]), new TestCaseBinding('Test Cases/New Folder/demo - Iteration 3', 'Test Cases/New Folder/demo',  [ 'depment' : '\u4E0A\u6D7711' ,  ]), new TestCaseBinding('Test Cases/New Folder/demo - Iteration 4', 'Test Cases/New Folder/demo',  [ 'depment' : '\u5317\u4EAC11' ,  ])])
+TestCaseMain.startTestSuite('Test Suites/createparamter/creparatTestSuite', suiteProperties, [new TestCaseBinding('Test Cases/New Folder/demo - Iteration 1', 'Test Cases/New Folder/demo',  [ 'depment' : 'beijing' , 'partid' : '6' ,  ]), new TestCaseBinding('Test Cases/New Folder/demo - Iteration 2', 'Test Cases/New Folder/demo',  [ 'depment' : 'shanghai' , 'partid' : '7' ,  ]), new TestCaseBinding('Test Cases/New Folder/demo - Iteration 3', 'Test Cases/New Folder/demo',  [ 'depment' : 'guangzhou' , 'partid' : '8' ,  ]), new TestCaseBinding('Test Cases/New Folder/demo - Iteration 4', 'Test Cases/New Folder/demo',  [ 'depment' : 'shenzhen' , 'partid' : '9' ,  ])])

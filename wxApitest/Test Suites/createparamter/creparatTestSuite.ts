@@ -11,13 +11,13 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>76f1fd2e-fff9-48c5-9af4-49d7fc98549d</testSuiteGuid>
    <testCaseLink>
-      <guid>e1b63e55-71b1-4ffc-b9ac-35aa4a0f184e</guid>
+      <guid>9be2c59d-d4e2-405b-968b-44946c84a37b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/New Folder/demo</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>ef2b55c0-6bd1-446f-94b1-8cb298da443c</id>
+         <id>ac53c51e-17c9-483c-b63d-91fef0b78843</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -25,10 +25,16 @@
          <testDataId>Data Files/credepartmentdata/createdept</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>ef2b55c0-6bd1-446f-94b1-8cb298da443c</testDataLinkId>
+         <testDataLinkId>ac53c51e-17c9-483c-b63d-91fef0b78843</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>dep</value>
          <variableId>5b872342-92ae-43ed-8a3f-6d78b5fa5f21</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ac53c51e-17c9-483c-b63d-91fef0b78843</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>num</value>
+         <variableId>8cfbd377-37a8-4dec-8b11-e52c342814f1</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

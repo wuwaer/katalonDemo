@@ -15,6 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WS.sendRequest(findTestObject('getToken/getApiToken', [('url') : GlobalVariable.wx_url]))
 
+WS.sendRequest(findTestObject('deletedepart/delpartment', [('url') : GlobalVariable.wx_url, ('token') : findTestData('gettoken/getapitoken').getValue(
+                1, 1), ('partid') : "${partid}"]))
+
 WS.sendRequest(findTestObject('createrdepart/cretdepartment', [('url') : GlobalVariable.wx_url, ('access_token') : findTestData(
                 'gettoken/getapitoken').getValue(1, 1), ('dep') : "${depment}"]))
 

@@ -12,4 +12,11 @@
       <masked>false</masked>
       <name>depment</name>
    </variable>
+   <variable>
+      <defaultValue>findTestData('credepartmentdata/createdept').getValue(2, 3)</defaultValue>
+      <description></description>
+      <id>8cfbd377-37a8-4dec-8b11-e52c342814f1</id>
+      <masked>false</masked>
+      <name>partid</name>
+   </variable>
 </TestCaseEntity>
