@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>demo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0adeaa2-68f8-4556-9ca1-14b188b19c17</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('credepartmentdata/createdept').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>5b872342-92ae-43ed-8a3f-6d78b5fa5f21</id>
+      <masked>false</masked>
+      <name>depment</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2019-04-29 10:17:22,2019-04-29 10:17:26,4.330s,PASSED
+,,,,,,
+Test Cases/New Folder/wxcredepartment,,,2019-04-29 10:17:22,2019-04-29 10:17:26,3.973s,PASSED
+"sendRequest(findTestObject(""getToken/getApiToken"", [""url"":wx_url]))",,,2019-04-29 10:17:23,2019-04-29 10:17:26,3.449s,PASSED
+"sendRequest(findTestObject(""createrdepart/cretdepartment"", [""url"":wx_url, ""access_token"":findTestData(""testData/getapitoken"").getValue(1, 1), ""dep"":""杭州啊""]))",,,2019-04-29 10:17:26,2019-04-29 10:17:26,0.239s,PASSED

@@ -13,5 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-response = WS.sendRequest(findTestObject('createrdepart/cretdepartment', [('url') : GlobalVariable.wx_url]))
+WS.sendRequest(findTestObject('getToken/getApiToken', [('url') : GlobalVariable.wx_url]))
+
+WS.sendRequest(findTestObject('createrdepart/cretdepartment', [('url') : GlobalVariable.wx_url, ('access_token') : findTestData(
+                'testData/getapitoken').getValue(1, 1), ('dep') : "${depment}"]))
 

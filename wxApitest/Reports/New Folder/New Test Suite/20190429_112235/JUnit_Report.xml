@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="9" tests="5" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="5" failures="0" errors="0" time="9" timestamp="2019-04-29 11:22:38" hostname="dubl - localhost" id="Test Suites/New Folder/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/dubl/katalonDemo/wxApitest/Reports/New Folder/New Test Suite/20190429_112235"/>
+         <property name="logFiles" value="/Users/dubl/katalonDemo/wxApitest/Reports/New Folder/New Test Suite/20190429_112235/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dubl - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+      </properties>
+      <testcase name="Test Cases/New Folder/demo" classname="Test Cases/New Folder/demo" status="PASSED">
+         <system-out><![CDATA[2019-04-29 11:22:38 - [TEST_CASE][PASSED] - Test Cases/New Folder/demo: Test Cases/New Folder/demo
+
+2019-04-29 11:22:39 - [TEST_STEP][PASSED] - sendRequest(findTestObject("getToken/getApiToken", ["url":wx_url])): Send request successfully
+
+2019-04-29 11:22:42 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/New Folder/New Test Suite/20190429_112235/requests/main/0.har
+
+2019-04-29 11:22:42 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-29 11:22:42 - [TEST_STEP][PASSED] - sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":$depment])): Send request successfully
+
+2019-04-29 11:22:43 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/New Folder/New Test Suite/20190429_112235/requests/main/1.har
+
+2019-04-29 11:22:43 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Folder/demo" classname="Test Cases/New Folder/demo" status="PASSED">
+         <system-out><![CDATA[2019-04-29 11:22:43 - [TEST_CASE][PASSED] - Test Cases/New Folder/demo: Test Cases/New Folder/demo
+
+2019-04-29 11:22:43 - [TEST_STEP][PASSED] - sendRequest(findTestObject("getToken/getApiToken", ["url":wx_url])): Send request successfully
+
+2019-04-29 11:22:43 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/New Folder/New Test Suite/20190429_112235/requests/main/2.har
+
+2019-04-29 11:22:43 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-29 11:22:43 - [TEST_STEP][PASSED] - sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":$depment])): Send request successfully
+
+2019-04-29 11:22:44 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/New Folder/New Test Suite/20190429_112235/requests/main/3.har
+
+2019-04-29 11:22:44 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Folder/demo" classname="Test Cases/New Folder/demo" status="PASSED">
+         <system-out><![CDATA[2019-04-29 11:22:44 - [TEST_CASE][PASSED] - Test Cases/New Folder/demo: Test Cases/New Folder/demo
+
+2019-04-29 11:22:44 - [TEST_STEP][PASSED] - sendRequest(findTestObject("getToken/getApiToken", ["url":wx_url])): Send request successfully
+
+2019-04-29 11:22:45 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/New Folder/New Test Suite/20190429_112235/requests/main/4.har
+
+2019-04-29 11:22:45 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-29 11:22:45 - [TEST_STEP][PASSED] - sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":$depment])): Send request successfully
+
+2019-04-29 11:22:45 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/New Folder/New Test Suite/20190429_112235/requests/main/5.har
+
+2019-04-29 11:22:45 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Folder/demo" classname="Test Cases/New Folder/demo" status="PASSED">
+         <system-out><![CDATA[2019-04-29 11:22:45 - [TEST_CASE][PASSED] - Test Cases/New Folder/demo: Test Cases/New Folder/demo
+
+2019-04-29 11:22:45 - [TEST_STEP][PASSED] - sendRequest(findTestObject("getToken/getApiToken", ["url":wx_url])): Send request successfully
+
+2019-04-29 11:22:46 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/New Folder/New Test Suite/20190429_112235/requests/main/6.har
+
+2019-04-29 11:22:46 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-29 11:22:46 - [TEST_STEP][PASSED] - sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":$depment])): Send request successfully
+
+2019-04-29 11:22:46 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/New Folder/New Test Suite/20190429_112235/requests/main/7.har
+
+2019-04-29 11:22:46 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Folder/demo" classname="Test Cases/New Folder/demo" status="PASSED">
+         <system-out><![CDATA[2019-04-29 11:22:46 - [TEST_CASE][PASSED] - Test Cases/New Folder/demo: Test Cases/New Folder/demo
+
+2019-04-29 11:22:46 - [TEST_STEP][PASSED] - sendRequest(findTestObject("getToken/getApiToken", ["url":wx_url])): Send request successfully
+
+2019-04-29 11:22:47 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/New Folder/New Test Suite/20190429_112235/requests/main/8.har
+
+2019-04-29 11:22:47 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-29 11:22:47 - [TEST_STEP][PASSED] - sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":$depment])): Send request successfully
+
+2019-04-29 11:22:47 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/New Folder/New Test Suite/20190429_112235/requests/main/9.har
+
+2019-04-29 11:22:47 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-29 11:22:38 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/New Folder/demo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

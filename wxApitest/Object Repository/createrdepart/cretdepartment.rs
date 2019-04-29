@@ -43,7 +43,7 @@
       <name>access_token</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('credepartmentdata/createdept').getValue(1, 1)</defaultValue>
+      <defaultValue>'湖州'</defaultValue>
       <description></description>
       <id>fe899710-3492-4373-9497-2a94d4975186</id>
       <masked>false</masked>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="3" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="3" timestamp="2019-04-29 10:16:55" hostname="dubl - localhost" id="Test Suites/New Folder/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/dubl/katalonDemo/wxApitest/Reports/New Folder/New Test Suite/20190429_101653"/>
+         <property name="logFiles" value="/Users/dubl/katalonDemo/wxApitest/Reports/New Folder/New Test Suite/20190429_101653/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dubl - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+      </properties>
+      <testcase name="Test Cases/New Folder/wxcredepartment" classname="Test Cases/New Folder/wxcredepartment" status="PASSED">
+         <system-out><![CDATA[2019-04-29 10:16:55 - [TEST_CASE][PASSED] - Test Cases/New Folder/wxcredepartment: Test Cases/New Folder/wxcredepartment
+
+2019-04-29 10:16:56 - [TEST_STEP][PASSED] - sendRequest(findTestObject("getToken/getApiToken", ["url":wx_url])): Send request successfully
+
+2019-04-29 10:16:58 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/New Folder/New Test Suite/20190429_101653/requests/main/0.har
+
+2019-04-29 10:16:58 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-29 10:16:58 - [TEST_STEP][PASSED] - sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":"杭州啊"])): Send request successfully
+
+2019-04-29 10:16:58 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/New Folder/New Test Suite/20190429_101653/requests/main/1.har
+
+2019-04-29 10:16:58 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-29 10:16:55 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/New Folder/wxcredepartment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

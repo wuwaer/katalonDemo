@@ -3,10 +3,10 @@
    <description></description>
    <name>createdept</name>
    <tag></tag>
-   <containsHeaders>false</containsHeaders>
+   <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>d2fd309d-6d8a-4b2f-a2f2-cb6d62a484fd</dataFileGUID>
-   <dataSourceUrl>Data Files/credepartmentdata/credept.csv</dataSourceUrl>
+   <dataSourceUrl>Data Files/credepartmentdata/creadept.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
