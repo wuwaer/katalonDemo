@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+creparatTestSuite,,,2019-04-29 14:15:30,2019-04-29 14:15:37,6.770s,PASSED
+,,,,,,
+Test Cases/New Folder/demo,,,2019-04-29 14:15:30,2019-04-29 14:15:34,4.056s,PASSED
+"sendRequest(findTestObject(""getToken/getApiToken"", [""url"":wx_url]))",,,2019-04-29 14:15:31,2019-04-29 14:15:34,3.373s,PASSED
+"sendRequest(findTestObject(""createrdepart/cretdepartment"", [""url"":wx_url, ""access_token"":findTestData(""gettoken/getapitoken"").getValue(1, 1), ""dep"":""湖州a""]))",,,2019-04-29 14:15:34,2019-04-29 14:15:34,0.288s,PASSED
+,,,,,,
+Test Cases/New Folder/demo,,,2019-04-29 14:15:34,2019-04-29 14:15:35,1.033s,PASSED
+"sendRequest(findTestObject(""getToken/getApiToken"", [""url"":wx_url]))",,,2019-04-29 14:15:34,2019-04-29 14:15:35,0.783s,PASSED
+"sendRequest(findTestObject(""createrdepart/cretdepartment"", [""url"":wx_url, ""access_token"":findTestData(""gettoken/getapitoken"").getValue(1, 1), ""dep"":""湖州a""]))",,,2019-04-29 14:15:35,2019-04-29 14:15:35,0.242s,PASSED
+,,,,,,
+Test Cases/New Folder/demo,,,2019-04-29 14:15:35,2019-04-29 14:15:36,0.717s,PASSED
+"sendRequest(findTestObject(""getToken/getApiToken"", [""url"":wx_url]))",,,2019-04-29 14:15:35,2019-04-29 14:15:36,0.379s,PASSED
+"sendRequest(findTestObject(""createrdepart/cretdepartment"", [""url"":wx_url, ""access_token"":findTestData(""gettoken/getapitoken"").getValue(1, 1), ""dep"":""湖州a""]))",,,2019-04-29 14:15:36,2019-04-29 14:15:36,0.326s,PASSED
+,,,,,,
+Test Cases/New Folder/demo,,,2019-04-29 14:15:36,2019-04-29 14:15:37,0.673s,PASSED
+"sendRequest(findTestObject(""getToken/getApiToken"", [""url"":wx_url]))",,,2019-04-29 14:15:36,2019-04-29 14:15:36,0.444s,PASSED
+"sendRequest(findTestObject(""createrdepart/cretdepartment"", [""url"":wx_url, ""access_token"":findTestData(""gettoken/getapitoken"").getValue(1, 1), ""dep"":""湖州a""]))",,,2019-04-29 14:15:36,2019-04-29 14:15:37,0.219s,PASSED

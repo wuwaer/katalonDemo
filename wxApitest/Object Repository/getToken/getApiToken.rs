@@ -46,7 +46,7 @@ def jsonResponse = jsonSlurper.parseText(response.getResponseText())
 
 def token = jsonResponse.access_token
 
-File file = new File(&quot;Data Files/testData/token.csv&quot;)
+File file = new File(&quot;Data Files/gettoken/token.csv&quot;)
 BufferedWriter out = new BufferedWriter(new FileWriter(file))
 out.write(token)
 out.flush()

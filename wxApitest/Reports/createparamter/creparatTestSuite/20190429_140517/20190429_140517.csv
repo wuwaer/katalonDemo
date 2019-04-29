@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+creparatTestSuite,,,2019-04-29 14:05:20,2019-04-29 14:05:25,5.535s,ERROR
+,,,,,,
+Test Cases/New Folder/demo,,,2019-04-29 14:05:20,2019-04-29 14:05:24,3.656s,ERROR
+"sendRequest(findTestObject(""getToken/getApiToken"", [""url"":wx_url]))",,,2019-04-29 14:05:20,2019-04-29 14:05:24,3.271s,PASSED
+"sendRequest(findTestObject(""createrdepart/cretdepartment"", [""url"":wx_url, ""access_token"":findTestData(""testData/getapitoken"").getValue(1, 1), ""dep"":$depment]))",,,2019-04-29 14:05:24,2019-04-29 14:05:24,0.015s,ERROR
+,,,,,,
+Test Cases/New Folder/demo,,,2019-04-29 14:05:24,2019-04-29 14:05:24,0.487s,ERROR
+"sendRequest(findTestObject(""getToken/getApiToken"", [""url"":wx_url]))",,,2019-04-29 14:05:24,2019-04-29 14:05:24,0.467s,PASSED
+"sendRequest(findTestObject(""createrdepart/cretdepartment"", [""url"":wx_url, ""access_token"":findTestData(""testData/getapitoken"").getValue(1, 1), ""dep"":$depment]))",,,2019-04-29 14:05:24,2019-04-29 14:05:24,0.004s,ERROR
+,,,,,,
+Test Cases/New Folder/demo,,,2019-04-29 14:05:24,2019-04-29 14:05:25,0.456s,ERROR
+"sendRequest(findTestObject(""getToken/getApiToken"", [""url"":wx_url]))",,,2019-04-29 14:05:24,2019-04-29 14:05:25,0.445s,PASSED
+"sendRequest(findTestObject(""createrdepart/cretdepartment"", [""url"":wx_url, ""access_token"":findTestData(""testData/getapitoken"").getValue(1, 1), ""dep"":$depment]))",,,2019-04-29 14:05:25,2019-04-29 14:05:25,0.002s,ERROR
+,,,,,,
+Test Cases/New Folder/demo,,,2019-04-29 14:05:25,2019-04-29 14:05:25,0.497s,ERROR
+"sendRequest(findTestObject(""getToken/getApiToken"", [""url"":wx_url]))",,,2019-04-29 14:05:25,2019-04-29 14:05:25,0.486s,PASSED
+"sendRequest(findTestObject(""createrdepart/cretdepartment"", [""url"":wx_url, ""access_token"":findTestData(""testData/getapitoken"").getValue(1, 1), ""dep"":$depment]))",,,2019-04-29 14:05:25,2019-04-29 14:05:25,0.002s,ERROR

@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="creparatTestSuite" time="4" tests="0" failures="0" errors="4">
+   <testsuite name="creparatTestSuite" tests="0" failures="0" errors="4" time="4" timestamp="2019-04-29 14:01:15" hostname="dubl - localhost" id="Test Suites/createparamter/creparatTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_140113"/>
+         <property name="logFiles" value="/Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_140113/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dubl - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+      </properties>
+      <testcase name="Test Cases/New Folder/demo" classname="Test Cases/New Folder/demo" status="ERROR">
+         <error type="ERROR" message="Test Cases/New Folder/demo FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.&lt;init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-29 14:01:15 - [TEST_CASE][ERROR] - Test Cases/New Folder/demo: Test Cases/New Folder/demo FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)
+
+
+2019-04-29 14:01:16 - [TEST_STEP][PASSED] - sendRequest(findTestObject("getToken/getApiToken", ["url":wx_url])): Send request successfully
+
+2019-04-29 14:01:18 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_140113/requests/main/0.har
+
+2019-04-29 14:01:18 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-29 14:01:18 - [TEST_STEP][ERROR] - sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":$depment])): sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":$depment])) FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)
+
+
+2019-04-29 14:01:18 - [MESSAGE][ERROR] - sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":$depment])) FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-29 14:01:15 - [TEST_CASE][ERROR] - Test Cases/New Folder/demo: Test Cases/New Folder/demo FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Folder/demo" classname="Test Cases/New Folder/demo" status="ERROR">
+         <error type="ERROR" message="Test Cases/New Folder/demo FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.&lt;init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-29 14:01:18 - [TEST_CASE][ERROR] - Test Cases/New Folder/demo: Test Cases/New Folder/demo FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)
+
+
+2019-04-29 14:01:18 - [TEST_STEP][PASSED] - sendRequest(findTestObject("getToken/getApiToken", ["url":wx_url])): Send request successfully
+
+2019-04-29 14:01:19 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_140113/requests/main/1.har
+
+2019-04-29 14:01:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-29 14:01:19 - [TEST_STEP][ERROR] - sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":$depment])): sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":$depment])) FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)
+
+
+2019-04-29 14:01:19 - [MESSAGE][ERROR] - sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":$depment])) FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-29 14:01:18 - [TEST_CASE][ERROR] - Test Cases/New Folder/demo: Test Cases/New Folder/demo FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Folder/demo" classname="Test Cases/New Folder/demo" status="ERROR">
+         <error type="ERROR" message="Test Cases/New Folder/demo FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.&lt;init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-29 14:01:19 - [TEST_CASE][ERROR] - Test Cases/New Folder/demo: Test Cases/New Folder/demo FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)
+
+
+2019-04-29 14:01:19 - [TEST_STEP][PASSED] - sendRequest(findTestObject("getToken/getApiToken", ["url":wx_url])): Send request successfully
+
+2019-04-29 14:01:19 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_140113/requests/main/2.har
+
+2019-04-29 14:01:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-29 14:01:19 - [TEST_STEP][ERROR] - sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":$depment])): sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":$depment])) FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)
+
+
+2019-04-29 14:01:19 - [MESSAGE][ERROR] - sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":$depment])) FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-29 14:01:19 - [TEST_CASE][ERROR] - Test Cases/New Folder/demo: Test Cases/New Folder/demo FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Folder/demo" classname="Test Cases/New Folder/demo" status="ERROR">
+         <error type="ERROR" message="Test Cases/New Folder/demo FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.&lt;init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-29 14:01:19 - [TEST_CASE][ERROR] - Test Cases/New Folder/demo: Test Cases/New Folder/demo FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)
+
+
+2019-04-29 14:01:19 - [TEST_STEP][PASSED] - sendRequest(findTestObject("getToken/getApiToken", ["url":wx_url])): Send request successfully
+
+2019-04-29 14:01:19 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190429_140113/requests/main/3.har
+
+2019-04-29 14:01:19 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-29 14:01:19 - [TEST_STEP][ERROR] - sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":$depment])): sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":$depment])) FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)
+
+
+2019-04-29 14:01:19 - [MESSAGE][ERROR] - sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("testData/getapitoken").getValue(1, 1), "dep":$depment])) FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-29 14:01:19 - [TEST_CASE][ERROR] - Test Cases/New Folder/demo: Test Cases/New Folder/demo FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-29 14:01:15 - [TEST_SUITE][ERROR] - creparatTestSuite: Test Cases/New Folder/demo FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-04-29 14:01:15 - [TEST_SUITE][ERROR] - creparatTestSuite: Test Cases/New Folder/demo FAILED.
+Reason:
+java.io.FileNotFoundException: /Users/dubl/katalonDemo/wxApitest/Data Files/gettoken/token.csv (No such file or directory)
+	at com.kms.katalon.core.testdata.reader.CSVReader.<init>(CSVReader.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getReader(CSVData.java:23)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNames(CSVData.java:57)
+	at com.kms.katalon.core.testdata.CSVData.getColumnNumbers(CSVData.java:82)
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:55)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at demo.run(demo:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556517673214.run(TempTestSuite1556517673214.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

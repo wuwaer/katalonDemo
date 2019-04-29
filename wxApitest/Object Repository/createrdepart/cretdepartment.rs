@@ -22,7 +22,7 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=${access_token}</restUrl>
+   <restUrl>${url}/cgi-bin/department/create?access_token=${access_token}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -36,14 +36,14 @@
       <name>url</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('testData/getapitoken').getValue(1, 1)</defaultValue>
+      <defaultValue>findTestData('gettoken/getapitoken').getValue(1, 1)</defaultValue>
       <description></description>
       <id>926f5cd4-06c8-4536-9c98-03bc8eb21b24</id>
       <masked>false</masked>
       <name>access_token</name>
    </variables>
    <variables>
-      <defaultValue>'湖州'</defaultValue>
+      <defaultValue>'湖州a'</defaultValue>
       <description></description>
       <id>fe899710-3492-4373-9497-2a94d4975186</id>
       <masked>false</masked>
