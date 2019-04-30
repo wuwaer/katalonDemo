@@ -25,14 +25,14 @@
       <name>url</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('gettoken/getapitoken').getValue(1, 1)</defaultValue>
+      <defaultValue>GlobalVariable.token</defaultValue>
       <description></description>
       <id>ea210f7f-2a15-484a-b308-4a9cb662e352</id>
       <masked>false</masked>
       <name>token</name>
    </variables>
    <variables>
-      <defaultValue>3</defaultValue>
+      <defaultValue>2</defaultValue>
       <description></description>
       <id>2917d030-acdc-4393-85d1-b3a9676e8786</id>
       <masked>false</masked>
@@ -51,6 +51,7 @@ import internal.GlobalVariable as GlobalVariable
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-</verificationScript>
+
+WS.verifyElementPropertyValue(response, 'errmsg', 'deleted')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

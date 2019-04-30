@@ -9,4 +9,14 @@
       <initValue>'https://qyapi.weixin.qq.com'</initValue>
       <name>wx_url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'dfdd'</initValue>
+      <name>token</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>2</initValue>
+      <name>partid</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

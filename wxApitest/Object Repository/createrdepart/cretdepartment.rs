@@ -36,7 +36,7 @@
       <name>url</name>
    </variables>
    <variables>
-      <defaultValue>findTestData('gettoken/getapitoken').getValue(1, 1)</defaultValue>
+      <defaultValue>GlobalVariable.token</defaultValue>
       <description></description>
       <id>926f5cd4-06c8-4536-9c98-03bc8eb21b24</id>
       <masked>false</masked>
@@ -62,6 +62,9 @@ import internal.GlobalVariable as GlobalVariable
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+WS.verifyElementPropertyValue(response, 'errmsg', 'created')
+
 </verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

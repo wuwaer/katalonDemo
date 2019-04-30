@@ -14,6 +14,16 @@ public class GlobalVariable {
      */
     public static Object wx_url
      
+    /**
+     * <p></p>
+     */
+    public static Object token
+     
+    /**
+     * <p></p>
+     */
+    public static Object partid
+     
 
     static {
         try {
@@ -22,6 +32,8 @@ public class GlobalVariable {
             selectedVariables += RunConfiguration.getOverridingParameters()
     
             wx_url = selectedVariables['wx_url']
+            token = selectedVariables['token']
+            partid = selectedVariables['partid']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+creparatTestSuite,,,2019-04-30 16:33:46,2019-04-30 16:33:56,9.366s,PASSED
+,,,,,,
+Test Cases/New Folder/demo,,,2019-04-30 16:33:47,2019-04-30 16:33:52,5.454s,PASSED
+"tokenresponse = sendRequestAndVerify(findTestObject(""getToken/getApiToken"", [""url"":wx_url]))",,,2019-04-30 16:33:47,2019-04-30 16:33:51,4.283s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,2019-04-30 16:33:51,2019-04-30 16:33:51,0.001s,PASSED
+result = slurper.parseText(tokenresponse.getResponseBodyContent()),,,2019-04-30 16:33:51,2019-04-30 16:33:51,0.004s,PASSED
+accessToken = access_token,,,2019-04-30 16:33:51,2019-04-30 16:33:51,0.003s,PASSED
+"println(""... value"" + accessToken)",,,2019-04-30 16:33:51,2019-04-30 16:33:51,0.003s,PASSED
+token = accessToken,,,2019-04-30 16:33:51,2019-04-30 16:33:51,0.001s,PASSED
+"println(""... tokenvalue"" + token)",,,2019-04-30 16:33:51,2019-04-30 16:33:51,0.001s,PASSED
+"response = sendRequest(findTestObject(""deletedepart/delpartment"", [""url"":wx_url, ""token"":findTestData(""gettoken/getapitoken"").getValue(1, 1), ""partid"":partid]))",,,2019-04-30 16:33:51,2019-04-30 16:33:52,0.427s,PASSED
+"verifyResponseStatusCode(response, 200, STOP_ON_FAILURE)",,,2019-04-30 16:33:52,2019-04-30 16:33:52,0.012s,PASSED
+"creresponse = sendRequest(findTestObject(""createrdepart/cretdepartment"", [""url"":wx_url, ""access_token"":findTestData(""gettoken/getapitoken"").getValue(1, 1), ""dep"":depment]))",,,2019-04-30 16:33:52,2019-04-30 16:33:52,0.332s,PASSED
+"verifyResponseStatusCode(creresponse, 200)",,,2019-04-30 16:33:52,2019-04-30 16:33:52,0.005s,PASSED
+println(creresponse),,,2019-04-30 16:33:52,2019-04-30 16:33:52,0.002s,PASSED
+"verifyElementPropertyValue(creresponse, ""errmsg"", ""created"")",,,2019-04-30 16:33:52,2019-04-30 16:33:52,0.015s,PASSED
+,,,,,,
+Test Cases/New Folder/demo,,,2019-04-30 16:33:52,2019-04-30 16:33:53,1.040s,PASSED
+"tokenresponse = sendRequestAndVerify(findTestObject(""getToken/getApiToken"", [""url"":wx_url]))",,,2019-04-30 16:33:52,2019-04-30 16:33:53,0.568s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,2019-04-30 16:33:53,2019-04-30 16:33:53,0.000s,PASSED
+result = slurper.parseText(tokenresponse.getResponseBodyContent()),,,2019-04-30 16:33:53,2019-04-30 16:33:53,0.001s,PASSED
+accessToken = access_token,,,2019-04-30 16:33:53,2019-04-30 16:33:53,0.000s,PASSED
+"println(""... value"" + accessToken)",,,2019-04-30 16:33:53,2019-04-30 16:33:53,0.000s,PASSED
+token = accessToken,,,2019-04-30 16:33:53,2019-04-30 16:33:53,0.001s,PASSED
+"println(""... tokenvalue"" + token)",,,2019-04-30 16:33:53,2019-04-30 16:33:53,0.001s,PASSED
+"response = sendRequest(findTestObject(""deletedepart/delpartment"", [""url"":wx_url, ""token"":findTestData(""gettoken/getapitoken"").getValue(1, 1), ""partid"":partid]))",,,2019-04-30 16:33:53,2019-04-30 16:33:53,0.195s,PASSED
+"verifyResponseStatusCode(response, 200, STOP_ON_FAILURE)",,,2019-04-30 16:33:53,2019-04-30 16:33:53,0.002s,PASSED
+"creresponse = sendRequest(findTestObject(""createrdepart/cretdepartment"", [""url"":wx_url, ""access_token"":findTestData(""gettoken/getapitoken"").getValue(1, 1), ""dep"":depment]))",,,2019-04-30 16:33:53,2019-04-30 16:33:53,0.236s,PASSED
+"verifyResponseStatusCode(creresponse, 200)",,,2019-04-30 16:33:53,2019-04-30 16:33:53,0.002s,PASSED
+println(creresponse),,,2019-04-30 16:33:53,2019-04-30 16:33:53,0.001s,PASSED
+"verifyElementPropertyValue(creresponse, ""errmsg"", ""created"")",,,2019-04-30 16:33:53,2019-04-30 16:33:53,0.017s,PASSED
+,,,,,,
+Test Cases/New Folder/demo,,,2019-04-30 16:33:53,2019-04-30 16:33:55,1.299s,PASSED
+"tokenresponse = sendRequestAndVerify(findTestObject(""getToken/getApiToken"", [""url"":wx_url]))",,,2019-04-30 16:33:53,2019-04-30 16:33:54,0.680s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,2019-04-30 16:33:54,2019-04-30 16:33:54,0.000s,PASSED
+result = slurper.parseText(tokenresponse.getResponseBodyContent()),,,2019-04-30 16:33:54,2019-04-30 16:33:54,0.001s,PASSED
+accessToken = access_token,,,2019-04-30 16:33:54,2019-04-30 16:33:54,0.000s,PASSED
+"println(""... value"" + accessToken)",,,2019-04-30 16:33:54,2019-04-30 16:33:54,0.001s,PASSED
+token = accessToken,,,2019-04-30 16:33:54,2019-04-30 16:33:54,0.001s,PASSED
+"println(""... tokenvalue"" + token)",,,2019-04-30 16:33:54,2019-04-30 16:33:54,0.000s,PASSED
+"response = sendRequest(findTestObject(""deletedepart/delpartment"", [""url"":wx_url, ""token"":findTestData(""gettoken/getapitoken"").getValue(1, 1), ""partid"":partid]))",,,2019-04-30 16:33:54,2019-04-30 16:33:54,0.229s,PASSED
+"verifyResponseStatusCode(response, 200, STOP_ON_FAILURE)",,,2019-04-30 16:33:54,2019-04-30 16:33:54,0.002s,PASSED
+"creresponse = sendRequest(findTestObject(""createrdepart/cretdepartment"", [""url"":wx_url, ""access_token"":findTestData(""gettoken/getapitoken"").getValue(1, 1), ""dep"":depment]))",,,2019-04-30 16:33:54,2019-04-30 16:33:55,0.354s,PASSED
+"verifyResponseStatusCode(creresponse, 200)",,,2019-04-30 16:33:55,2019-04-30 16:33:55,0.002s,PASSED
+println(creresponse),,,2019-04-30 16:33:55,2019-04-30 16:33:55,0.001s,PASSED
+"verifyElementPropertyValue(creresponse, ""errmsg"", ""created"")",,,2019-04-30 16:33:55,2019-04-30 16:33:55,0.015s,PASSED
+,,,,,,
+Test Cases/New Folder/demo,,,2019-04-30 16:33:55,2019-04-30 16:33:56,1.209s,PASSED
+"tokenresponse = sendRequestAndVerify(findTestObject(""getToken/getApiToken"", [""url"":wx_url]))",,,2019-04-30 16:33:55,2019-04-30 16:33:55,0.623s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,2019-04-30 16:33:55,2019-04-30 16:33:55,0.001s,PASSED
+result = slurper.parseText(tokenresponse.getResponseBodyContent()),,,2019-04-30 16:33:55,2019-04-30 16:33:55,0.000s,PASSED
+accessToken = access_token,,,2019-04-30 16:33:55,2019-04-30 16:33:55,0.001s,PASSED
+"println(""... value"" + accessToken)",,,2019-04-30 16:33:55,2019-04-30 16:33:55,0.003s,PASSED
+token = accessToken,,,2019-04-30 16:33:55,2019-04-30 16:33:55,0.001s,PASSED
+"println(""... tokenvalue"" + token)",,,2019-04-30 16:33:55,2019-04-30 16:33:55,0.001s,PASSED
+"response = sendRequest(findTestObject(""deletedepart/delpartment"", [""url"":wx_url, ""token"":findTestData(""gettoken/getapitoken"").getValue(1, 1), ""partid"":partid]))",,,2019-04-30 16:33:55,2019-04-30 16:33:55,0.220s,PASSED
+"verifyResponseStatusCode(response, 200, STOP_ON_FAILURE)",,,2019-04-30 16:33:55,2019-04-30 16:33:55,0.002s,PASSED
+"creresponse = sendRequest(findTestObject(""createrdepart/cretdepartment"", [""url"":wx_url, ""access_token"":findTestData(""gettoken/getapitoken"").getValue(1, 1), ""dep"":depment]))",,,2019-04-30 16:33:55,2019-04-30 16:33:56,0.314s,PASSED
+"verifyResponseStatusCode(creresponse, 200)",,,2019-04-30 16:33:56,2019-04-30 16:33:56,0.002s,PASSED
+println(creresponse),,,2019-04-30 16:33:56,2019-04-30 16:33:56,0.001s,PASSED
+"verifyElementPropertyValue(creresponse, ""errmsg"", ""created"")",,,2019-04-30 16:33:56,2019-04-30 16:33:56,0.018s,PASSED

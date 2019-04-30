@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="creparatTestSuite" time="9" tests="4" failures="0" errors="0">
+   <testsuite name="creparatTestSuite" tests="4" failures="0" errors="0" time="9" timestamp="2019-04-30 16:33:46" hostname="dubl - localhost" id="Test Suites/createparamter/creparatTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190430_163343"/>
+         <property name="logFiles" value="/Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190430_163343/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="dubl - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+      </properties>
+      <testcase name="Test Cases/New Folder/demo" classname="Test Cases/New Folder/demo" status="PASSED">
+         <system-out><![CDATA[2019-04-30 16:33:47 - [TEST_CASE][PASSED] - Test Cases/New Folder/demo: Test Cases/New Folder/demo
+
+2019-04-30 16:33:47 - [TEST_STEP][PASSED] - tokenresponse = sendRequestAndVerify(findTestObject("getToken/getApiToken", ["url":wx_url])): Send request and verify the response successfully
+
+2019-04-30 16:33:51 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-04-30 16:33:51 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-04-30 16:33:51 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-04-30 16:33:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errmsg", "ok"): Verify element property value successfully
+
+2019-04-30 16:33:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-30 16:33:51 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-04-30 16:33:51 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-04-30 16:33:51 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2019-04-30 16:33:51 - [TEST_STEP][PASSED] - result = slurper.parseText(tokenresponse.getResponseBodyContent()): null
+
+2019-04-30 16:33:51 - [TEST_STEP][PASSED] - accessToken = access_token: null
+
+2019-04-30 16:33:51 - [TEST_STEP][PASSED] - println("... value" + accessToken): null
+
+2019-04-30 16:33:51 - [TEST_STEP][PASSED] - token = accessToken: null
+
+2019-04-30 16:33:51 - [TEST_STEP][PASSED] - println("... tokenvalue" + token): null
+
+2019-04-30 16:33:51 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("deletedepart/delpartment", ["url":wx_url, "token":findTestData("gettoken/getapitoken").getValue(1, 1), "partid":partid])): Send request successfully
+
+2019-04-30 16:33:52 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190430_163343/requests/main/0.har
+
+2019-04-30 16:33:52 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-30 16:33:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200, STOP_ON_FAILURE): Verify response status code successfully
+
+2019-04-30 16:33:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-30 16:33:52 - [TEST_STEP][PASSED] - creresponse = sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("gettoken/getapitoken").getValue(1, 1), "dep":depment])): Send request successfully
+
+2019-04-30 16:33:52 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190430_163343/requests/main/1.har
+
+2019-04-30 16:33:52 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-30 16:33:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(creresponse, 200): Verify response status code successfully
+
+2019-04-30 16:33:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-30 16:33:52 - [TEST_STEP][PASSED] - println(creresponse): null
+
+2019-04-30 16:33:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue(creresponse, "errmsg", "created"): Verify element property value successfully
+
+2019-04-30 16:33:52 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Folder/demo" classname="Test Cases/New Folder/demo" status="PASSED">
+         <system-out><![CDATA[2019-04-30 16:33:52 - [TEST_CASE][PASSED] - Test Cases/New Folder/demo: Test Cases/New Folder/demo
+
+2019-04-30 16:33:52 - [TEST_STEP][PASSED] - tokenresponse = sendRequestAndVerify(findTestObject("getToken/getApiToken", ["url":wx_url])): Send request and verify the response successfully
+
+2019-04-30 16:33:53 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-04-30 16:33:53 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-04-30 16:33:53 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-04-30 16:33:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errmsg", "ok"): Verify element property value successfully
+
+2019-04-30 16:33:53 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-30 16:33:53 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-04-30 16:33:53 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-04-30 16:33:53 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2019-04-30 16:33:53 - [TEST_STEP][PASSED] - result = slurper.parseText(tokenresponse.getResponseBodyContent()): null
+
+2019-04-30 16:33:53 - [TEST_STEP][PASSED] - accessToken = access_token: null
+
+2019-04-30 16:33:53 - [TEST_STEP][PASSED] - println("... value" + accessToken): null
+
+2019-04-30 16:33:53 - [TEST_STEP][PASSED] - token = accessToken: null
+
+2019-04-30 16:33:53 - [TEST_STEP][PASSED] - println("... tokenvalue" + token): null
+
+2019-04-30 16:33:53 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("deletedepart/delpartment", ["url":wx_url, "token":findTestData("gettoken/getapitoken").getValue(1, 1), "partid":partid])): Send request successfully
+
+2019-04-30 16:33:53 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190430_163343/requests/main/2.har
+
+2019-04-30 16:33:53 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-30 16:33:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200, STOP_ON_FAILURE): Verify response status code successfully
+
+2019-04-30 16:33:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-30 16:33:53 - [TEST_STEP][PASSED] - creresponse = sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("gettoken/getapitoken").getValue(1, 1), "dep":depment])): Send request successfully
+
+2019-04-30 16:33:53 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190430_163343/requests/main/3.har
+
+2019-04-30 16:33:53 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-30 16:33:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(creresponse, 200): Verify response status code successfully
+
+2019-04-30 16:33:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-30 16:33:53 - [TEST_STEP][PASSED] - println(creresponse): null
+
+2019-04-30 16:33:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue(creresponse, "errmsg", "created"): Verify element property value successfully
+
+2019-04-30 16:33:53 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Folder/demo" classname="Test Cases/New Folder/demo" status="PASSED">
+         <system-out><![CDATA[2019-04-30 16:33:53 - [TEST_CASE][PASSED] - Test Cases/New Folder/demo: Test Cases/New Folder/demo
+
+2019-04-30 16:33:53 - [TEST_STEP][PASSED] - tokenresponse = sendRequestAndVerify(findTestObject("getToken/getApiToken", ["url":wx_url])): Send request and verify the response successfully
+
+2019-04-30 16:33:54 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-04-30 16:33:54 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-04-30 16:33:54 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-04-30 16:33:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errmsg", "ok"): Verify element property value successfully
+
+2019-04-30 16:33:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-30 16:33:54 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-04-30 16:33:54 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-04-30 16:33:54 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2019-04-30 16:33:54 - [TEST_STEP][PASSED] - result = slurper.parseText(tokenresponse.getResponseBodyContent()): null
+
+2019-04-30 16:33:54 - [TEST_STEP][PASSED] - accessToken = access_token: null
+
+2019-04-30 16:33:54 - [TEST_STEP][PASSED] - println("... value" + accessToken): null
+
+2019-04-30 16:33:54 - [TEST_STEP][PASSED] - token = accessToken: null
+
+2019-04-30 16:33:54 - [TEST_STEP][PASSED] - println("... tokenvalue" + token): null
+
+2019-04-30 16:33:54 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("deletedepart/delpartment", ["url":wx_url, "token":findTestData("gettoken/getapitoken").getValue(1, 1), "partid":partid])): Send request successfully
+
+2019-04-30 16:33:54 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190430_163343/requests/main/4.har
+
+2019-04-30 16:33:54 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-30 16:33:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200, STOP_ON_FAILURE): Verify response status code successfully
+
+2019-04-30 16:33:54 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-30 16:33:54 - [TEST_STEP][PASSED] - creresponse = sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("gettoken/getapitoken").getValue(1, 1), "dep":depment])): Send request successfully
+
+2019-04-30 16:33:55 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190430_163343/requests/main/5.har
+
+2019-04-30 16:33:55 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-30 16:33:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(creresponse, 200): Verify response status code successfully
+
+2019-04-30 16:33:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-30 16:33:55 - [TEST_STEP][PASSED] - println(creresponse): null
+
+2019-04-30 16:33:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(creresponse, "errmsg", "created"): Verify element property value successfully
+
+2019-04-30 16:33:55 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Folder/demo" classname="Test Cases/New Folder/demo" status="PASSED">
+         <system-out><![CDATA[2019-04-30 16:33:55 - [TEST_CASE][PASSED] - Test Cases/New Folder/demo: Test Cases/New Folder/demo
+
+2019-04-30 16:33:55 - [TEST_STEP][PASSED] - tokenresponse = sendRequestAndVerify(findTestObject("getToken/getApiToken", ["url":wx_url])): Send request and verify the response successfully
+
+2019-04-30 16:33:55 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-04-30 16:33:55 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-04-30 16:33:55 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-04-30 16:33:55 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "errmsg", "ok"): Verify element property value successfully
+
+2019-04-30 16:33:55 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-30 16:33:55 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-04-30 16:33:55 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-04-30 16:33:55 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null
+
+2019-04-30 16:33:55 - [TEST_STEP][PASSED] - result = slurper.parseText(tokenresponse.getResponseBodyContent()): null
+
+2019-04-30 16:33:55 - [TEST_STEP][PASSED] - accessToken = access_token: null
+
+2019-04-30 16:33:55 - [TEST_STEP][PASSED] - println("... value" + accessToken): null
+
+2019-04-30 16:33:55 - [TEST_STEP][PASSED] - token = accessToken: null
+
+2019-04-30 16:33:55 - [TEST_STEP][PASSED] - println("... tokenvalue" + token): null
+
+2019-04-30 16:33:55 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("deletedepart/delpartment", ["url":wx_url, "token":findTestData("gettoken/getapitoken").getValue(1, 1), "partid":partid])): Send request successfully
+
+2019-04-30 16:33:55 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190430_163343/requests/main/6.har
+
+2019-04-30 16:33:55 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-30 16:33:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200, STOP_ON_FAILURE): Verify response status code successfully
+
+2019-04-30 16:33:55 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-30 16:33:55 - [TEST_STEP][PASSED] - creresponse = sendRequest(findTestObject("createrdepart/cretdepartment", ["url":wx_url, "access_token":findTestData("gettoken/getapitoken").getValue(1, 1), "dep":depment])): Send request successfully
+
+2019-04-30 16:33:56 - [MESSAGE][INFO] - HAR: /Users/dubl/katalonDemo/wxApitest/Reports/createparamter/creparatTestSuite/20190430_163343/requests/main/7.har
+
+2019-04-30 16:33:56 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-30 16:33:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(creresponse, 200): Verify response status code successfully
+
+2019-04-30 16:33:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-30 16:33:56 - [TEST_STEP][PASSED] - println(creresponse): null
+
+2019-04-30 16:33:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(creresponse, "errmsg", "created"): Verify element property value successfully
+
+2019-04-30 16:33:56 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-30 16:33:46 - [TEST_SUITE][PASSED] - creparatTestSuite: Test Cases/New Folder/demo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
